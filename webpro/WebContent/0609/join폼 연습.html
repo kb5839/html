@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel = "stylesheet" href = "../css/mycss.css">
+<style>
+label, span{
+width: 60px;
+height: 30px;
+display : inline-block;
+padding-left: 10px;
+
+}
+div,h2{
+border : 3px solid blue;
+padding: 20px;
+width : 80%;
+height: auto;
+margin: 20px auto;
+}
+h2{
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>회원 가입 화면</h2>
+<div>
+<form name = "ff" action = "label_test.jsp" method = "post">
+<label>이름</label>
+<input type = "text" name ="name" value="홍길동"><br>
+
+<label>주소</label>
+<input type = "text" name ="addr" value = "대전"><br>
+
+<label>이메일</label>
+<input type = "text" name ="mail" value = "1234@1234.com"><br>
+
+<input type = "radio" >Male<br>
+<input type = "radio" >Female<br>
+
+
+	<input type="submit" value="Send">
+	<input type="reset" value="원래대로">
+</form>
+</div>
+</body>
+</html>

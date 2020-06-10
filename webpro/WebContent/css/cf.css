@@ -1,0 +1,15 @@
+	h1, p {
+	/*border : 1px solid blue;*/
+	width : 100%;
+		text-align : center;
+	}
+	img{
+	width : 300px;
+	height : 300px;
+	}
+	div{
+	margin : 50px auto;
+	/*padding-left : 50px;*/
+	text-align : center;
+	border : none;
+	}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel = "stylesheet" href = "../css/mycss.css">
+<style type="text/css">
+img,#inputimg{
+width: 100px;
+height: 100px;
+}
+</style>
+</head>
+<pre>
+전송을 실행하는 요소 : 
+type = 'image'
+type = 'submit'
+
+type = 'button' : 아무런 기능이 없다, 기능을 부여하기 위해서 
+
+스크립트에서 html body태그안에 요소로 접근하기
+1. name을 이용해 접근
+let userName = document.ff.name.value
+let userId = document.ff.id.value
+2.id 이름으로 접근
+document.
+
+<!-- document.write("이름 :" +userName + "<br>") -->
+<!-- document.write("아이디 :" +userId + "<br>") -->
+window.alert("이름 :" + uberName +"\n 아이디 : " + userId)
+</pre>
+<script type="text/javascript">
+fuction aa(){
+	let userName = document.ff.name.value
+	let userId = document.ff.id.value
+	let color = document.ff.color.value;
+	
+	window.alert(color);
+// 	..body의 배경색 바꾸기
+	document.get
+// 	window.alert("이름 :" + uberName +"\n 아이디 : " + userId)
+}
+</script>
+<body id = "body">
+<form name = "ff" action = "input_type.jsp" method = "post">
+이름<input type = "text" name ="name" value="홍길동"><br>
+아이디<input type = "text" name ="id" value="aa"><br>
+비밀번호<input type = "password" name ="pw" value="1234"><br>
+주소<input type = "text" name ="addr" value = "대전"><br>
+전화번호<input type = "text" name ="tel" value = "1234"><br>
+성별<input type = "radio" value ="gender" value="m">남자
+	<input type = "radio" value ="gender" value="f">여자<br>
+좋아하는음식 <input type = "checkbox" name ="food" value="초밥">초밥
+		<input type = "checkbox" name ="food" value="삼겹살">삼겹살
+<br>파일<input type = "file" name ="file" value=""><br>
+	<input type="hidden" name="id2" value="a001">
+	<img src="../images/Koala.jpg">
+	전송하기(전송을 실행 : type "image" type="submit")<br>
+	<input id = "inputimg" type="image" src="../images/Koala.jpg">
+	<input type="reset" value="취소">
+	<input type="submit" value="전송">
+	<input type="button" value="확인">
+
+</form>
+</body>
+</html>
